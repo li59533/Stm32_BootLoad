@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Bsp -I ..\MDK-ARM
+-I.\RTE\_YE59XX
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L4R9xx -DUSE_HAL_DRIVER -DSTM32L4R9xx -DUSE_HAL_DRIVER -DSTM32L4R9xx -DARM_MATH_CM4 -D__FPU_PRESENT="1"
+-o ye59xx\esp32processtask.o --omf_browse ye59xx\esp32processtask.crf --depend ye59xx\esp32processtask.d "Esp32ProcessTask.c"
